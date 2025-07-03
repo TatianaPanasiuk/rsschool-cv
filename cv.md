@@ -1,6 +1,6 @@
 <img src="https://i.pinimg.com/originals/93/f5/ad/93f5add9cde98356f58e67e36dd5e232.jpg" width="200"/>
 
-Tatsiana Panasuik
+Tatsiana Panasiuk
 =
 About me
 -
