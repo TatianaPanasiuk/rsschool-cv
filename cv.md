@@ -60,3 +60,21 @@ Programs
 </tr>
 </table>
 
+Code Examle
+-
+Convert boolean values to strings 'Yes' or 'No'. (The code was taken from a codewars task.)
+```
+function boolToWord( bool ){
+  let str;
+  if (bool == true) { return str = "Yes" ;}
+  else {return str = "No";}
+}
+
+
+boolToWord( true );
+boolToWord( false );
+```
+
+
+English
+-
