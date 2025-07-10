@@ -24,7 +24,7 @@ Specialization: information security software for mobile systems
 
 Skills
 -
-Languages
+Programming languages
 <table>
 <tr>
 <td>1. C#</td>
