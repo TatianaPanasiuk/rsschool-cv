@@ -74,3 +74,8 @@ a:active{
 nav{
      font-size: 15pt;
 }
+ul.nav li{
+     display: inline;
+     padding-left: 5px;
+     border-left: 3px solid #445F3B;
+}
