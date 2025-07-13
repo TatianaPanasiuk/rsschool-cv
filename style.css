@@ -64,4 +64,9 @@ a:hover{
 a:active{
  color: #E0EFEA;
 }
-
+.logo{
+     width: 50px;
+}
+.avatar{
+     width: 130px;
+}
