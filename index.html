@@ -7,10 +7,14 @@
   </head>
   <body>
     <header>
-        <h1>CV#2. HTML, CSS &amp; Git Basics</h1>
+        <div>
+          <img class="avatar"
+            alt="Avatar"
+            src="https://i.pinimg.com/originals/93/f5/ad/93f5add9cde98356f58e67e36dd5e232.jpg">
+        </div>
+        <h1>Tatsiana Panasiuk</h1>
       </header>
-    <main>      
-      <nav>
+       <nav>
         <ul class="nav">
             <li><a href="#about">About</a></li>
             <li><a href="#contacts">Contacts</a></li>
@@ -21,26 +25,22 @@
             <li><a href="#links">Links</a></li>
         </ul>
       </nav>
-      <div class="content">
-        <div>
-          <img class="avatar"
-            alt="Avatar"
-            src="https://i.pinimg.com/originals/93/f5/ad/93f5add9cde98356f58e67e36dd5e232.jpg">
-        </div>
-        <div class="text">
-            <a id="about"></a>
-          <h2>Tatsiana Panasiuk</h2>
-          <h2>About me</h2>
-          <p>I want to finish this course and gain experience and knowledge.</p>
-          <a id="contacts"></a>
-          <h2>Contacts</h2>
+    <main>      
+     
+      <section id="about">
+        <h2>About me</h2>
+            <p>I want to finish this course and gain experience and knowledge.</p>
+      </section>
+      <section id="contacts">
+        <h2>Contacts</h2>
           <ul>
             <li>PhoneNumber: +375 (25) 66-51-571</li>
             <li>GitHub: @TatianaPanasiuk</li>
             <li>E-mail: ptatyana310@gmail.com</li>
           </ul>
-          <a id="edu"></a>
-          <h2>Еducation</h2>
+      </section>
+      <section id="edu">
+        <h2>Еducation</h2>
           <img class="logo"
             alt="logo"
             src="https://conf.belstu.by/wp-content/uploads/2022/09/cropped-БГТУ-логотип-1-1-1024x1024.png">
@@ -48,44 +48,34 @@
             Belarusian State Technological University.<br>
             Specialization: information security software for mobile systems.
           </p>
-          <a id="skills"></a>
-          <h2>Skills</h2>
-          <p>Programming languages</p>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
           <table>
             <tbody>
               <tr>
-                <td>1. C#</td>
-                <td>4. JavaScript</td>
+                <td>&#8226; C#</td>
+                <td>&#8226; JavaScript</td>
+                <td>&#8226; HTML, CSS</td>
+                <td>&#8226; Java</td>
               </tr>
               <tr>
-                <td>2. HTML</td>
-                <td>5. Java</td>
+                <td>&#8226; Python</td>
+                <td>&#8226; Adobe Photoshop</td>
+                <td>&#8226; Microsoft Visual Studio</td>
+                <td>&#8226; Adobe Illustrator</td>
               </tr>
               <tr>
-                <td>3. CSS</td>
-                <td>6. Python</td>
+                 <td>&#8226; Visual Studio Code</td>
+                <td>&#8226; Adobe PremierePro</td>
+                <td>&#8226; DaVinci</td>
+                <td></td>
               </tr>
             </tbody>
-          </table>
-          <p>Programs</p>
-          <table>
-            <tbody>
-              <tr>
-                <td>1. Adobe Photoshop</td>
-                <td>4. Microsoft Visual Studio</td>
-              </tr>
-              <tr>
-                <td>2. Adobe Illustrator</td>
-                <td>5. Visual Studio Code</td>
-              </tr>
-              <tr>
-                <td>3. Adobe PremierePro</td>
-                <td>6. DaVinci</td>
-              </tr>
-            </tbody>
-          </table>
-          <a id="codeex"></a>
-          <h2>Code Examle</h2>
+          </table>         
+      </section>
+      <section id="codeex">
+         <h2>Code Examle</h2>
           <p>
             Convert boolean values to strings 'Yes' or 'No'. (The code was taken
             from a codewars task.)
@@ -101,16 +91,18 @@
                 boolToWord( false );
             </pre>
           </div>
-          <a id="engl"></a>
-          <h2>English</h2>
-          <p>A2(I continue to study and improve my English)</p>
-        </div>
-      </div>
+
+      </section>
+      <section id="engl">
+        <h2>English</h2>
+        <p>A2(I continue to study and improve my English)</p>
+      </section>
+          
     </main>
     <div id="clear"></div>
     <a id="links"></a>
     <footer>
-      <div>
+      <div class="img">
         <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 552.8 205.3">
           <style>
             .st0 {
@@ -280,7 +272,10 @@
       <div>
         <p>link to the course: <a href="https://rs.school/courses/javascript-ru">https://rs.school/courses/javascript-ru</a></p>
         <p>GitHub: <a href="https://github.com/TatianaPanasiuk">https://github.com/TatianaPanasiuk</a></p>
-      </div>  
+      </div>
+      <div id="copyright">
+        &copy; 2025 Tatsiana Panasiuk
+      </div>
     </footer>
   </body>
 </html>
