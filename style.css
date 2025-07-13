@@ -3,19 +3,16 @@ body {
      font-family: Arial, sans-serif;
      font-size: 14px;    
 }
-
 #header {
      background: #445F3B;
      width: 100%;
      height: 55px;
 }
-
 #content {
      background: #E0EFEA;
      float: right;
      height: 90%;
 }
-
 #img{
     float:left;
     width: 20%;
@@ -26,13 +23,14 @@ body {
     width: 78%;
     text-align: left;   
 }
-
 #clear {
      clear: both;
 }
-
 #footer{
     background: #564734;
     width: 100%;
     height: 40px;
+}
+p{
+     font-size: 15pt;
 }
