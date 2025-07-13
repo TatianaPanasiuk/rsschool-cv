@@ -3,7 +3,7 @@ body {
      font-family: Arial, sans-serif;
      font-size: 14px;    
 }
-#header {
+header {
      background: #8EA076;
      width: 100%;
      height: 55px;
@@ -31,7 +31,7 @@ body {
 #clear {
      clear: both;
 }
-#footer{
+footer{
     background: #445F3B;
     width: 100%;
     color: white;
@@ -51,9 +51,10 @@ p{
 }
 a{
      text-decoration: none;
+     color:#8EA076;
 }
 a:link{
-     color: white;    
+     color: #8EA076;    
 }
 a:visited{
       color: #8EA076 ;
@@ -69,4 +70,12 @@ a:active{
 }
 .avatar{
      width: 130px;
+}
+nav{
+     font-size: 15pt;
+}
+ul.nav li{
+     display: inline;
+     padding-left: 5px;
+     border-left: 3px solid #445F3B;
 }

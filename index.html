@@ -6,10 +6,21 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <div id="header">
-        <h1>CV#2. HTML, CSS &amp Git Basics</h1>
-      </div>
+    <header>
+        <h1>CV#2. HTML, CSS &amp; Git Basics</h1>
+      </header>
+    <main>      
+      <nav>
+        <ul class="nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#codeex">Code Example</a></li>
+            <li><a href="#engl">English</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+      </nav>
       <div class="content">
         <div>
           <img class="avatar"
@@ -17,15 +28,18 @@
             src="https://i.pinimg.com/originals/93/f5/ad/93f5add9cde98356f58e67e36dd5e232.jpg">
         </div>
         <div class="text">
+            <a id="about"></a>
           <h2>Tatsiana Panasiuk</h2>
           <h2>About me</h2>
           <p>I want to finish this course and gain experience and knowledge.</p>
+          <a id="contacts"></a>
           <h2>Contacts</h2>
           <ul>
             <li>PhoneNumber: +375 (25) 66-51-571</li>
             <li>GitHub: @TatianaPanasiuk</li>
             <li>E-mail: ptatyana310@gmail.com</li>
           </ul>
+          <a id="edu"></a>
           <h2>Еducation</h2>
           <img class="logo"
             alt="logo"
@@ -34,6 +48,7 @@
             Belarusian State Technological University.<br>
             Specialization: information security software for mobile systems.
           </p>
+          <a id="skills"></a>
           <h2>Skills</h2>
           <p>Programming languages</p>
           <table>
@@ -69,6 +84,7 @@
               </tr>
             </tbody>
           </table>
+          <a id="codeex"></a>
           <h2>Code Examle</h2>
           <p>
             Convert boolean values to strings 'Yes' or 'No'. (The code was taken
@@ -85,13 +101,15 @@
                 boolToWord( false );
             </pre>
           </div>
+          <a id="engl"></a>
           <h2>English</h2>
           <p>A2(I continue to study and improve my English)</p>
         </div>
       </div>
-    </div>
+    </main>
     <div id="clear"></div>
-    <div id="footer">
+    <a id="links"></a>
+    <footer>
       <div>
         <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 552.8 205.3">
           <style>
@@ -263,6 +281,6 @@
         <p>link to the course: <a href="https://rs.school/courses/javascript-ru">https://rs.school/courses/javascript-ru</a></p>
         <p>GitHub: <a href="https://github.com/TatianaPanasiuk">https://github.com/TatianaPanasiuk</a></p>
       </div>  
-    </div>
+    </footer>
   </body>
 </html>
